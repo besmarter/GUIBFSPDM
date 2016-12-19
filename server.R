@@ -144,7 +144,7 @@ shinyServer(function(input, output) {
   
   output$download11 <- downloadHandler(
     filename = function() { 
-      paste('Posterior Chains', '.csv', sep=',') 
+      paste('Posterior Matrix Probability','.csv', sep='') 
     },
     
     content = function(file) {
@@ -160,7 +160,7 @@ shinyServer(function(input, output) {
   
   output$download21 <- downloadHandler(
     filename = function() { 
-      paste('Posterior Chains', '.csv', sep=',') 
+      paste('Posterior Chains','.csv', sep='') 
     },
     
     content = function(file) {

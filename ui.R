@@ -126,52 +126,52 @@ DLP21<- downloadButton('multiDownload21', 'Download Posterior Graphs')
 pplot21<- plotOutput('plot21', height = 1)
 
 shinyUI(
-  navbarPage(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'),
+  navbarPage(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'),
 
              sidebarLayout(
-               sidebarPanel(h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx')),
+               sidebarPanel(h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                             h2('Bayesian Econometrics: simulations, models and applications to research, teaching and encoding with responsibility'),
                             image,
                             h4('Professor Andres Ramirez Hassan'),
-                            h4(span('besmarter.team@gmail.com', style = 'color:blue')),
+                            h4(a(em(strong('www.besmarter-team.org',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                             h4('This is free graphical user interface and comes with ABSOLUTELY NO WARRANTY.')),
-               mainPanel(h3(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'),' is a team of friends from ', a('Universidad EAFIT', href ='http://www.eafit.edu.co/Paginas/index.aspx'), ' (Medellin, Colombia) that promotes research, teaching and encoding of Bayesian Econometrics with social responsibility.'
+               mainPanel(h3(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'),' is a team of friends from Medellin (Colombia) that promotes research, teaching and encoding of Bayesian Econometrics with social responsibility.'
                ),
                h3('Bayesian Econometrics allows establishing a framework that simultaneously unifies decision theory, statistical inference, and probability theory under a single philosophically and mathematically consistent structure.'),
                br(),
                h3(strong('VISION')),
-               h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'), 'envisions worldwide econometric research, teaching and applications based on a Bayesian framework that:'),
+               h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'), 'envisions worldwide econometric research, teaching and applications based on a Bayesian framework that:'),
                h4(em('inspire'), ' new econometric ideas,'),
                h4(em('create'), ' a user friendly environment for applications of Bayesian econometrics,'),
                h4(em('transform'), ' classic econometric research, teaching and applications,'),
                h4('and where one of the main concerns of science is to solve social problems.'),
                br(),
                h3(strong('MISSION')),
-               h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'), 'leads and excels in the generation and dissemination of Bayesian Econometric knowledge through research, teaching and software.')
+               h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'), 'leads and excels in the generation and dissemination of Bayesian Econometric knowledge through research, teaching and software.')
                )),
 
              tabPanel('Presentation',
                       sidebarLayout(
-                        sidebarPanel(h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx')),
+                        sidebarPanel(h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                                      h2('Bayesian Econometrics: simulations, models and applications to research, teaching and encoding with responsibility'),
                                      image,
                                      h4('Professor Andres Ramirez Hassan'),
-                                     h4(span('besmarter.team@gmail.com', style = 'color:blue')),
+                                     h4(a(em(strong('www.besmarter-team.org',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                                      h4('This is free graphical user interface and comes with ABSOLUTELY NO WARRANTY.')
                       ),
-                        mainPanel(h3(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'),' is a team of friends from ', a('Universidad EAFIT', href ='http://www.eafit.edu.co/Paginas/index.aspx'), ' (Medellin, Colombia) that promotes research, teaching and encoding of Bayesian Econometrics with social responsibility.'
+                        mainPanel(h3(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'),' is a team of friends from Medellin (Colombia) that promotes research, teaching and encoding of Bayesian Econometrics with social responsibility.'
                         ),
                         h3('Bayesian Econometrics allows establishing a framework that simultaneously unifies decision theory, statistical inference, and probability theory under a single philosophically and mathematically consistent structure.'),
                         br(),
                         h3(strong('VISION')),
-                        h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'), 'envisions worldwide econometric research, teaching and applications based on a Bayesian framework that:'),
+                        h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'), 'envisions worldwide econometric research, teaching and applications based on a Bayesian framework that:'),
                         h4(em('inspire'), ' new econometric ideas.'),
                         h4(em('create'), ' a user friendly environment for applications of Bayesian econometrics.'),
                         h4(em('transform'), ' classic econometric research, teaching and applications.'),
                         h4('and where one of the main concerns of science is to solve social problems.'),
                         br(),
                         h3(strong('MISSION')),
-                        h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx'), 'leads and excels in the generation and dissemination of Bayesian Econometric knowledge through research, teaching and software.')
+                        h4(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org'), 'leads and excels in the generation and dissemination of Bayesian Econometric knowledge through research, teaching and software.')
                         ))),
 
              tabPanel('Posterior Matrix Probability',
@@ -180,11 +180,11 @@ shinyUI(
                           radioButtons('M11', 'Models',
                                        c('No Selection'='m110','Spatial Autoregressive with Autoregressive Disturbances'='m111', 'Spatial Autoregressive Model'='m112','Spatial Error Model'='m113')
                           ),
-                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx')),
+                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                           h2('Bayesian Econometrics: simulations, models and applications to research, teaching and encoding with responsibility'),
                           image,
                           h4('Professor Andres Ramirez Hassan'),
-                          h4(span('besmarter.team@gmail.com', style = 'color:blue'))
+                          h4(a(em(strong('www.besmarter-team.org',style = 'color:light blue')),href = 'http://www.besmarter-team.org'))
                         ),
                           mainPanel(fluidRow(column(5,file1am),column(2,filech1am),column(2,rb1am)),fluidRow(column(5,file1bm),column(2,filech1bm),column(2,rb1bm)),fluidRow(column(6,Formula1),column(3,Units),column(3,Time)),fluidRow(column(6,HTForm1),column(3,HTMU),column(3,HTMT)),
                                     HT,go11,BE,DL11,PMPtext,verbatimTextOutput('summary11')))),
@@ -195,11 +195,11 @@ shinyUI(
                           radioButtons('M21', 'Models',
                                        c('No Selection'='m210','General Nesting Model'='m211', 'Spatial Autoregressive with Autoregressive Disturbances'='m212', 'Spatial Durbin Model'='m213','Spatial Durbin Error Model'='m214','Spatial Autoregressive Model'='m215','Spatial Error Model'='m216','Spatial Lag Model'='m217','No Spatial Effects'='m218')
                           ),
-                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx')),
+                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                           h2('Bayesian Econometrics: simulations, models and applications to research, teaching and encoding with responsibility'),
                           image,
                           h4('Professor Andres Ramirez Hassan'),
-                          h4(span('besmarter.team@gmail.com', style = 'color:blue'))
+                          h4(a(em(strong('www.besmarter-team.org',style = 'color:light blue')),href = 'http://www.besmarter-team.org'))
                         ),
                         mainPanel(fluidRow(column(5,file2am),column(2,filech2am),column(2,rb2am)),fluidRow(column(5,file2bm),column(2,filech2bm),column(2,rb2bm)),fluidRow(column(4,it1),column(4,it2),column(4,it3)),fluidRow(column(3,TLambda),column(3,TRho)),fluidRow(column(3,HTTLam),column(3,HTTRho)),
                                   fluidRow(column(6,Formula2),column(3,Units2),column(3,Time2)),fluidRow(column(6,HTForm1),column(3,HTMU),column(3,HTMT)),
@@ -208,14 +208,14 @@ shinyUI(
              tabPanel('Help',
                       sidebarLayout(
                         sidebarPanel(
-                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.eafit.edu.co/docentes-investigadores/Paginas/andres-ramirez.aspx')),
+                          h1(a(em(strong('BEsmarter',style = 'color:light blue')),href = 'http://www.besmarter-team.org')),
                           h2('Bayesian Econometrics: simulations, models and applications to research, teaching and encoding with responsibility'),
                           image,
                           h4('Professor Andres Ramirez Hassan'),
-                          h4(span('besmarter.team@gmail.com', style = 'color:blue'))),
+                          h4(a(em(strong('www.besmarter-team.org',style = 'color:light blue')),href = 'http://www.besmarter-team.org'))),
                         mainPanel(h4(a(em(strong('Video tutorial: graphical user interface for Bayesian estimation of fixed effects spatial panel data models.',style = 'color:light blue')),href = 'https://www.youtube.com/watch?v=9vOyZQutjn8')
                                      ),
-                                     h4(a(em(strong('Ramirez Hassan, A. (2016). "The Interplay Between the Bayesian and Frequentist Approaches: A General Nesting Spatial Panel Data Model" Spatial Economic Analysis. Accepted manuscript.',style = 'color:light blue')),href = 'http://www.tandfonline.com/toc/rsea20/current')
+                                     h4(a(em(strong('Ramirez Hassan, A. (2016). "The Interplay Between the Bayesian and Frequentist Approaches: A General Nesting Spatial Panel Data Model" Spatial Economic Analysis. Accepted manuscript.',style = 'color:light blue')),href = 'http://www.tandfonline.com/doi/full/10.1080/17421772.2017.1248478')
                         ))
                       ))
              ))
